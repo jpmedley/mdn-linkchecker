@@ -1,0 +1,37 @@
+{
+  "name": "mdn-linkchecker",
+  "version": "0.1.5-alpha",
+  "description": "Uses HEAD requests to check link status on MDN based on BCD data",
+  "main": "index.js",
+  "bin": {
+    "mdn-linkchecker": "./bin/mdn-linkchecker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epistemex/mdn-linkchecker.git"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "index.js",
+    "errors_404.log",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE-MIT.txt",
+    "Change.log",
+    "mdncomp.example.json"
+  ],
+  "keywords": [
+    "mdn",
+    "bcd",
+    "test",
+    "checker"
+  ],
+  "author": "epistemex",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "mdn-browser-compat-data": "*"
+  }
+}
