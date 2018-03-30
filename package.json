@@ -19,8 +19,7 @@
     "package-lock.json",
     "README.md",
     "LICENSE-MIT.txt",
-    "Change.log",
-    "mdncomp.example.json"
+    "Change.log"
   ],
   "keywords": [
     "mdn",
